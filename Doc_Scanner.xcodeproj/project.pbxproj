@@ -14,6 +14,7 @@
 		897951BC20D06B3400CFD0F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897951BA20D06B3400CFD0F4 /* LaunchScreen.storyboard */; };
 		897951C720D06B3400CFD0F4 /* Doc_ScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897951C620D06B3400CFD0F4 /* Doc_ScannerTests.swift */; };
 		897951D220D06B3400CFD0F4 /* Doc_ScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897951D120D06B3400CFD0F4 /* Doc_ScannerUITests.swift */; };
+		897951E020D06C8D00CFD0F4 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897951DF20D06C8D00CFD0F4 /* PreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		897951CD20D06B3400CFD0F4 /* Doc_ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Doc_ScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		897951D120D06B3400CFD0F4 /* Doc_ScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doc_ScannerUITests.swift; sourceTree = "<group>"; };
 		897951D320D06B3400CFD0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897951DF20D06C8D00CFD0F4 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				897951B120D06B3200CFD0F4 /* AppDelegate.swift */,
 				897951B320D06B3200CFD0F4 /* ViewController.swift */,
+				897951DF20D06C8D00CFD0F4 /* PreviewViewController.swift */,
 				897951B520D06B3200CFD0F4 /* Main.storyboard */,
 				897951B820D06B3400CFD0F4 /* Assets.xcassets */,
 				897951BA20D06B3400CFD0F4 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				897951B420D06B3200CFD0F4 /* ViewController.swift in Sources */,
 				897951B220D06B3200CFD0F4 /* AppDelegate.swift in Sources */,
+				897951E020D06C8D00CFD0F4 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +441,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "FlyData.Doc-Scanner";
+				PRODUCT_BUNDLE_IDENTIFIER = flydata;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "FlyData.Doc-Scanner";
+				PRODUCT_BUNDLE_IDENTIFIER = flydata;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
